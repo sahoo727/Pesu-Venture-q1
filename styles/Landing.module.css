@@ -1,0 +1,77 @@
+.sidebar{
+    background-color: #26496e;
+    /* overflow: auto; */
+    /* position: -webkit-sticky;
+    position: sticky; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: auto;
+    width:16rem;
+}
+
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+
+.list{
+    color: white;
+}
+
+.list:hover{
+    background-color: white;
+    color: #26496e;
+    
+}
+
+.listButton:hover .iconDashboard{
+    color: #26496e;
+}
+
+.iconDashboard{
+    color: white;
+}
+
+.counterBox1{
+    background-color: #f87171;
+}
+
+.counterBox2 {
+    background-color: #3b82f6;
+}
+
+.counterBox3 {
+    background-color: #22c55e;
+}
+
+.textorange{
+    color: #f87171;
+}
+
+.textblue{
+    color: #3b82f6;
+}
+
+.textgreen{
+    color: #22c55e;
+}
+
+.percentLoad{
+    width: 10rem;
+}
+
+@media only screen and (max-width: 600px){
+    .sidebarVisible{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        overflow: auto;
+        z-index: 10;
+    }
+}
+
+

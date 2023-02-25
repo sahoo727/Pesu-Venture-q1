@@ -6,7 +6,8 @@ import 'react-circular-progressbar/dist/styles.css';
 import styles from "../../styles/Landing.module.css";
 
 function PercentCounter() {
-    const percentage = 3.8;
+    const percentage1 = 3.8;
+    const percentage2 = 30.8;
   return (
     <div>
         <p className={`text-lg ${styles.textgreen}`}>Upcoming Placement Opportunities</p>
@@ -39,9 +40,9 @@ function PercentCounter() {
                     <div className={`${styles.percentLoad} grid grid-rows-4 mt-5 m-auto`}>
                         <div className='row-span-3 '>
                             <CircularProgressbar 
-                                value={percentage} 
+                                value={percentage1} 
                                 strokeWidth={5}
-                                text={`${percentage}%`} 
+                                text={`${percentage1}%`} 
                                 styles={buildStyles({
                                     textSize: '12px',
                                     pathColor: '#3b82f6'
@@ -97,9 +98,9 @@ function PercentCounter() {
                     <div className={`${styles.percentLoad} grid grid-rows-4 mt-5 m-auto`}>
                         <div className='row-span-3 '>
                             <CircularProgressbar 
-                                value={percentage} 
+                                value={percentage2} 
                                 strokeWidth={5}
-                                text={`${percentage}%`} 
+                                text={`${percentage2}%`} 
                                 styles={buildStyles({
                                     textSize: '12px',
                                     pathColor: '#3b82f6'

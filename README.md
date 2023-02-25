@@ -2,7 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, download zip file or clone using
+
+```bash
+git clone https://github.com/sahoo727/Pesu-Venture-q1.git
+
+```
+
+Then, install all the dependency from package.json
+
+```bash
+npm install
+
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
